@@ -49,7 +49,7 @@ bechdel90_13
 
 How many movies are there?
 
-**1615**: 
+**Response**: 1615
 
 
 The financial variables that we will focus on are:
@@ -89,7 +89,7 @@ bechdel90_13 %>%
 
 What patterns do you notice?
 
-**Response**: The movies where the women don't talk to each other have the **highest** budget and the gross the most **domestically**.: 
+**Response**: The movies where the women don't talk to each other have the **highest** budget and the gross the most **domestically**.
 
 
 In order to evaluate how return on investment varies among movies that pass and fail the Bechdel test, we first create a new variable called `roi` as the ratio of the gross to budget.
@@ -135,7 +135,7 @@ ggplot(data = bechdel90_13, mapping = aes(x = clean_test, y = roi, color = binar
 
 What patterns do you notice?
 
-**Respons**: The medains for each group of movies is roughly the same. However the the Inter-quartile range and overall range of the movies that pass the Bechdel test than the others. In fact the a movie that passed the Bechdel test seems to have the highes return on investment.
+**Response**: The medians for each group of movies is roughly the same. However the the Inter-quartile range and overall range of the movies that pass the Bechdel test than the others. In fact the a movie that passed the Bechdel test seems to have the highest return on investment.
 
 
 Go back to the `README` document
